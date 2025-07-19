@@ -22,19 +22,16 @@ This project includes 5 SQL queries that cover:
 - Advanced window functions and CTEs
 
 ## ⚙️ Data Entry Rules (Simulated Constraints)
-- **States:** 'Khartoum', 'Jazeera', 'White Nile', 'Blue Nile',
-  'Gedaref', 'Kassala', 'Red Sea', 'North Darfur', 'South Darfur',
-  'East Darfur', 'West Darfur', 'Central Darfur', 'North Kordofan',
-  'South Kordofan', 'West Kordofan', 'River Nile', 'Northern'
-- **Beneficiaries:** 'Refugees', 'IDPs', 'Host Community'
+- **States:** Kassala, Gedaref, Red Sea, Khartoum, South Kordofan  
+- **Beneficiaries:** Integer values between 1 and 1000  
 - **Date Format:** `YYYY-MM-DD`  
 - **Referral Status:** 'Pending', 'Completed', 'In Progress', 'Cancelled'  
 - **Partner & Service Names:** Simulated for demonstration only
+
+## 📘 View the [Entity Relationship Diagram](child_protection_erd.md)
 
 ## ⚠️ Disclaimer
 All data used is fictional and intended solely for portfolio demonstration. No real beneficiary or organizational data is included.
 
 ## 🔗 Repository
 GitHub: [https://github.com/waleedconan/child-protection-sql-portfolio](https://github.com/waleedconan/child-protection-sql-portfolio)
-
-📘 View the [Entity Relationship Diagram](child_protection_erd.md)
