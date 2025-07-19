@@ -30,7 +30,7 @@ This project includes 5 SQL queries that cover:
 
 ## 📘 View the [Entity Relationship Diagram](child_protection_erd.md)
 
-## ⚠️ Disclaimer:** 
+## ⚠️ Disclaimer
 This project is a simulation created for educational and portfolio demonstration purposes only.
 
 All data used is entirely fictional and does not represent any real individuals, organizations, or operations.
