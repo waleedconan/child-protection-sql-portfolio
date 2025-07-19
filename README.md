@@ -31,14 +31,15 @@ This project includes 5 SQL queries that cover:
 ## 📘 View the [Entity Relationship Diagram](child_protection_erd.md)
 
 ## ⚠️ Disclaimer
-This project is a simulation created for educational and portfolio demonstration purposes only.
+This project was developed independently for learning and portfolio purposes.
 
-All data used is entirely fictional and does not represent any real individuals, organizations, or operations.
+It uses entirely fictional data and does not reflect any real individuals, organizations, or operational information.
 
-No real beneficiary data, internal reports, or confidential information has been used.
+No internal reports, confidential data, or proprietary formats were used.
 
-This project is not affiliated with or endorsed by UNHCR or any of its partners.
+This work is not affiliated with or endorsed by UNHCR or its partners.
 
-Any similarities to real-world programs, indicators, or formats are purely coincidental and for illustrative purposes only..
+The use of humanitarian concepts (e.g., referrals, services, protection indicators) is based on publicly known practices and general sector knowledge.
+
 ## 🔗 Repository
 GitHub: [https://github.com/waleedconan/child-protection-sql-portfolio](https://github.com/waleedconan/child-protection-sql-portfolio)
