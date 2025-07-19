@@ -36,3 +36,5 @@ All data used is fictional and intended solely for portfolio demonstration. No r
 
 ## 🔗 Repository
 GitHub: [https://github.com/waleedconan/child-protection-sql-portfolio](https://github.com/waleedconan/child-protection-sql-portfolio)
+
+📘 View the [Entity Relationship Diagram](child_protection_erd.md)
