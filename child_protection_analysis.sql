@@ -7,14 +7,16 @@
                  It covers partner services, referrals, case tracking,
                  and includes a CTE with window functions.
 
- Author        : Waleed Osman (waleedconan)
+ Author        : Waleed Sidahmed
  Created Date  : July 2025
  Repository    : https://github.com/waleedconan/child-protection-sql-portfolio
  Note          : This project is for portfolio use and uses simulated data.
 
  Data Entry Restrictions:
-   - State names limited to 5 fictional examples: Kassala, Gedaref, Red Sea, Khartoum, South Kordofan
-   - Beneficiaries must be a positive integer between 1 and 1000
+   - State names limited to 18 fictional examples: 'Khartoum', 'Jazeera', 'White Nile', 'Blue Nile', 
+     'Gedaref', 'Kassala', 'Red Sea', 'North Darfur', 'South Darfur', 'East Darfur', 'West Darfur', 
+     'Central Darfur', 'North Kordofan', 'South Kordofan', 'West Kordofan', 'River Nile', 'Northern'
+   - Beneficiaries must be one of: 'Refugees', 'IDPs', 'Host Community'
    - Dates are formatted as YYYY-MM-DD (e.g., 2025-07-01)
    - ReferralStatus must be one of: 'Pending', 'Completed', 'In Progress', 'Cancelled'
    - Partner and service names are fictional for demonstration purposes only
