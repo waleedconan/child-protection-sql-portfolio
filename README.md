@@ -22,8 +22,11 @@ This project includes 5 SQL queries that cover:
 - Advanced window functions and CTEs
 
 ## ⚙️ Data Entry Rules (Simulated Constraints)
-- **States:** Kassala, Gedaref, Red Sea, Khartoum, South Kordofan  
-- **Beneficiaries:** Integer values between 1 and 1000  
+- **States:** 'Khartoum', 'Jazeera', 'White Nile', 'Blue Nile',
+  'Gedaref', 'Kassala', 'Red Sea', 'North Darfur', 'South Darfur',
+  'East Darfur', 'West Darfur', 'Central Darfur', 'North Kordofan',
+  'South Kordofan', 'West Kordofan', 'River Nile', 'Northern'
+- **Beneficiaries:** 'Refugees', 'IDPs', 'Host Community'
 - **Date Format:** `YYYY-MM-DD`  
 - **Referral Status:** 'Pending', 'Completed', 'In Progress', 'Cancelled'  
 - **Partner & Service Names:** Simulated for demonstration only
