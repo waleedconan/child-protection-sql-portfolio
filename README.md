@@ -1,36 +1,35 @@
-# Child Protection SQL Portfolio
+# Child Protection Donor Report – SQL Portfolio Project
 
-This project simulates real-world SQL use in a humanitarian context — specifically child protection case management. It includes structured queries built from a relational data model involving cases, referrals, services, and partners.
+## 📌 Project Objective
+To provide a structured and insightful child protection indicator report reflecting the project’s current status. The project simulates real-world data analysis and reporting used in humanitarian operations.
 
-## 📘 Project Context
-The simulated dataset mirrors the type of data typically used by UNHCR and child protection actors. It was designed to reflect reporting needs for donor updates, including trends, coverage, and partner performance.
+## 📝 Summary
+Despite the ongoing security situation in Sudan and significant funding cuts, child protection activities have continued in safer areas with limited coverage. This project simulates a donor-facing analysis of child protection services, tracking referrals, services provided, partner coverage, and key case management actions across multiple states.
 
-## 🛠️ Tools Used
-- PostgreSQL
-- Power BI (for visualization, not included here)
-- Structured Query Language (SQL)
-- ActivityInfo-style indicators
+## 🔍 Methodology
+- Data is **fictional** and intended for demonstration purposes.
+- It simulates monthly reporting from UNHCR child protection implementing partners using the ActivityInfo platform.
+- Key indicators and service delivery data were created in line with common CP reporting practices.
+- UNHCR field focal points are assumed to ensure data quality and consistency.
+- Analysis is conducted using **SQL** and will later be visualized using **Power BI**.
 
-## 📂 Query List
+## 📊 SQL Coverage
+This project includes 5 SQL queries that cover:
+- Partner service delivery
+- Action tracking
+- Referral case analysis
+- Service type breakdowns
+- Advanced window functions and CTEs
 
-| File | Purpose |
-|------|---------|
-| `total_cases_by_state.sql` | Count child protection cases by partner and state |
-| `referrals_by_service.sql` | Total referrals grouped by service type |
-| `top_partners_by_region.sql` | Top 3 partners per state by referral count (uses CTE + window function) |
-| `referral_trends_by_month.sql` | Monthly referral trends |
-| `latest_referral_per_case.sql` | Most recent referral per case using `ROW_NUMBER()` and CTE |
+## ⚙️ Data Entry Rules (Simulated Constraints)
+- **States:** Kassala, Gedaref, Red Sea, Khartoum, South Kordofan  
+- **Beneficiaries:** Integer values between 1 and 1000  
+- **Date Format:** `YYYY-MM-DD`  
+- **Referral Status:** 'Pending', 'Completed', 'In Progress', 'Cancelled'  
+- **Partner & Service Names:** Simulated for demonstration only
 
-## 📈 What's Next
-This repository is part of a larger portfolio involving:
-- Power BI dashboards
-- Data cleaning in Power Query
-- Realistic humanitarian data scenarios
+## ⚠️ Disclaimer
+All data used is fictional and intended solely for portfolio demonstration. No real beneficiary or organizational data is included.
 
-> **Disclaimer:** All data is fictional and created for demonstration purposes only.
-
----
-
-Let me know when you're done uploading — I can review your README and help you refine it for recruiters.
-
-Would you like me to generate a polished `README.md` file now for upload?
+## 🔗 Repository
+GitHub: [https://github.com/waleedconan/child-protection-sql-portfolio](https://github.com/waleedconan/child-protection-sql-portfolio)
