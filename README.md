@@ -31,7 +31,7 @@ This project includes 5 SQL queries that cover:
 
 ## ⚙️ Data Entry Rules (Simulated Constraints)
 - **States:** Khartoum, Blue Nile, Red Sea 
-- **Beneficiaries:** Integer values between 1 and 1000  
+- **Beneficiaries:** Refugees,IDPs, Host Community 
 - **Date Format:** `YYYY-MM-DD`  
 - **Referral Status:** 'Pending', 'Completed', 'In Progress', 'Cancelled'  
 - **Partner & Service Names:** Simulated for demonstration only
