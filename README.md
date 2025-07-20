@@ -8,9 +8,9 @@ Despite the ongoing security situation in Sudan and significant funding cuts, ch
 
 ## 🔍 Methodology
 - Data is **fictional** and intended for demonstration purposes.
-- It simulates monthly reporting from UNHCR child protection implementing partners using the ActivityInfo platform.
+- It simulates monthly reporting from Agency child protection implementing partners using the ActivityInfo platform.
 - Key indicators and service delivery data were created in line with common CP reporting practices.
-- UNHCR field focal points are assumed to ensure data quality and consistency.
+- Agency field focal points are assumed to ensure data quality and consistency.
 - Analysis is conducted using **SQL** and will later be visualized using **Power BI**.
 
 ## 📊 SQL Coverage
@@ -42,7 +42,7 @@ This project includes 5 SQL queries that cover:
 - This project was developed independently for learning and portfolio purposes.
 - It uses entirely fictional data and does not reflect any real individuals, organizations, or operational information.
 - No internal reports, confidential data, or proprietary formats were used.
-- This work is not affiliated with or endorsed by UNHCR or its partners.
+- This work is not affiliated with or endorsed by any Agency or its partners.
 - The use of humanitarian concepts (e.g., referrals, services, protection indicators) is based on publicly known practices and general sector knowledge.
 
 ## 🔗 Repository
