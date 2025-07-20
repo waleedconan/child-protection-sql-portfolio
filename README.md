@@ -22,13 +22,12 @@ This project includes 5 SQL queries that cover:
 - Advanced window functions and CTEs
 
 ## 📊 Dashboard Preview
+### 🔹 Program Coverage Summary
+![Program Coverage Summary](https://raw.githubusercontent.com/waleedconan/child-protection-sql-portfolio/main/Program%20Coverage%20Summary.png)
 
+### 🔹 Case Management Tracking
+![Case Management Tracking](https://raw.githubusercontent.com/waleedconan/child-protection-sql-portfolio/main/Case%20Management%20Tracking.PNG)
 
-### 🔷 Program Coverage Summary
-[![Program Coverage Summary](program_coverage_summary.png)](https://github.com/waleedconan/child-protection-sql-portfolio/blob/main/Program%20Coverage%20Summary.png)
-
-### 🔷 Case Management Tracking
-[![Case Management Tracking](case_management_tracking.png)](https://github.com/waleedconan/child-protection-sql-portfolio/blob/main/Case%20Management%20Tracking.PNG)
 
 ## ⚙️ Data Entry Rules (Simulated Constraints)
 - **States:** Kassala, Gedaref, Red Sea, Khartoum, South Kordofan  
