@@ -8,9 +8,9 @@ Despite the ongoing security situation in Sudan and significant funding cuts, ch
 
 ## 🔍 Methodology
 - Data is **fictional** and intended for demonstration purposes.
-- It simulates monthly reporting from Agency child protection implementing partners using the ActivityInfo platform.
+- It simulates monthly reporting from the agency child protection implementing partners using the ActivityInfo platform.
 - Key indicators and service delivery data were created in line with common CP reporting practices.
-- Agency field focal points are assumed to ensure data quality and consistency.
+- The agency field focal points are assumed to ensure data quality and consistency.
 - Analysis is conducted using **SQL** and will later be visualized using **Power BI**.
 
 ## 📊 SQL Coverage
