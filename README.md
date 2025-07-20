@@ -30,7 +30,7 @@ This project includes 5 SQL queries that cover:
 
 
 ## ⚙️ Data Entry Rules (Simulated Constraints)
-- **States:** Kassala, Gedaref, Red Sea, Khartoum, South Kordofan  
+- **States:** Khartoum, Blue Nile, Red Sea 
 - **Beneficiaries:** Integer values between 1 and 1000  
 - **Date Format:** `YYYY-MM-DD`  
 - **Referral Status:** 'Pending', 'Completed', 'In Progress', 'Cancelled'  
