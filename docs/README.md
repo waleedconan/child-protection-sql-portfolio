@@ -1,4 +1,20 @@
 # 🛡️ Child Protection – SQL & Power BI Portfolio Project
+## 📚 Table of Contents
+
+- [🎯 Project Objective](#-project-objective)
+- [📝 Executive Summary](#-executive-summary)
+- [🛠️ Methodology](#-methodology)
+- [🗺️ Entity Relationship Diagram (ERD)](#-entity-relationship-diagram-erd)
+- [📊 Dashboard Interpretation](#-dashboard-interpretation)
+  - [🔹 Program Coverage Summary](#-program-coverage-summary)
+  - [🔹 Case Management Tracking](#-case-management-tracking)
+  - [🔹 Key Performance Indicators](#-key-performance-indicators)
+- [🧮 SQL Analysis Overview](#-sql-analysis-overview)
+- [📌 Key Findings & Recommendations](#-key-findings--recommendations)
+- [📂 Folder Overview](#-folder-overview)
+- [🚀 How to Use](#-how-to-use)
+- [⚠️ Disclaimer](#-disclaimer)
+- [🔗 Repository](#-repository)
 
 ## 🎯 Project Objective
 
