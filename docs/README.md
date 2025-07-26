@@ -4,23 +4,33 @@
 
 To provide a donor-focused report showcasing the coverage, trends, and gaps in child protection services. Despite the conflict in Sudan, protection activities continued in accessible states, reflecting a real-world humanitarian data context.
 
+---
+
 ## 📝 Summary
 
 Despite the ongoing conflict and financial constraints in Sudan, child protection activities were maintained in accessible areas. This simulated report demonstrates how SQL and Power BI can be used to track referrals, services, and partner performance in humanitarian contexts. The project mimics monthly reporting workflows and offers clear insights for donors and coordination actors. Visuals reflect simulated coverage across multiple states, service types, and vulnerable groups.
 
+---
+
 ## 🛠️ Methodology
 
-- **Data Simulation**: All data is fictional and generated to mimic real-world protection case management scenarios.
-- **Data Sources**: Monthly partner submissions using simulated ActivityInfo-based indicators.
-- **Tools**:
+- **Data Simulation:** All data is fictional and generated to mimic real-world protection case management scenarios.
+- **Data Sources:** Monthly partner submissions using simulated ActivityInfo-based indicators.
+- **Tools:**
   - **SQL** – For querying protection case data, referrals, and service trends.
   - **Power BI** – For dashboard creation and visual storytelling.
   - **Excel** – For data preparation and structure simulation.
+- **Data Cleaning and Shaping:** Power Query used within Power BI to clean and prepare data.
+- **Calculation Logic:** DAX measures implemented for dynamic KPIs such as referral aging and overdue case counts.
+
+---
 
 ## 🗺️ Entity Relationship Diagram (ERD)
 
-📎 [View as Markdown](docs/ERD.md)  
+📎 [View ERD as Markdown](docs/ERD.md)  
 ![ERD](https://raw.githubusercontent.com/waleedconan/child-protection-sql-portfolio/main/docs/child_protection_erd.png)
+
+---
 
 ## 📊 Dashboard Interpretation
 
@@ -40,20 +50,24 @@ Despite the ongoing conflict and financial constraints in Sudan, child protectio
 📈 Summarizes delivery metrics. Flags 23% of referrals pending and 12% pending over 5 days — indicating action gaps.  
 ![KPIs](https://raw.githubusercontent.com/waleedconan/child-protection-sql-portfolio/main/visuals/v3%20KPIs.png)
 
+---
+
 ## 🧮 SQL Analysis Overview
 
-- `01_basic_queries.sql`:
-  - Referral counts by status and partner
-  - Service distribution by location
-  - Partner-wise beneficiary reach
+- **Basic Queries (`01_basic_queries.sql`):**  
+  - Referral counts by status and partner  
+  - Service distribution by location  
+  - Partner-wise beneficiary reach  
 
-- `02_advanced_queries.sql`:
-  - DENSE_RANK and LAG to compare partner rankings
-  - NTILE for partner segmentation by performance
-  - Rolling counts of referrals using `COUNT() OVER`
-  - Aging referrals using `DATEDIFF` and conditional filtering
+- **Advanced Queries (`02_advanced_queries.sql`):**  
+  - Use of window functions like `DENSE_RANK()`, `LAG()` for partner ranking and performance changes  
+  - `NTILE()` for segmenting partners by performance tiers  
+  - Rolling counts of referrals using `COUNT() OVER()`  
+  - Aging referrals tracked with `DATEDIFF()` and conditional filters  
 
-📄 Detailed explanations are in [`/sql/README_sql.md`](sql/README_sql.md)
+📄 Detailed explanations and inline comments available in [`/sql/README_sql.md`](sql/README_sql.md)
+
+---
 
 ## 📌 Key Findings & Recommendations
 
@@ -61,22 +75,30 @@ Despite the ongoing conflict and financial constraints in Sudan, child protectio
 |-------------|----------------|
 | 🔴 High pending referrals in Blue Nile | Prioritize support and follow-up with partners in that state |
 | 🟠 Partner C shows consistent underperformance | Targeted capacity building or reallocation of cases |
-| 🟡 12% of referrals are pending >5 days | Introduce response time SLAs and auto-alerts |
+| 🟡 12% of referrals are pending >5 days | Introduce response time SLAs and automated alert systems |
 | 🔵 Some states have low service diversity (e.g., Red Sea) | Broaden partner presence or cross-train existing partners |
+
+---
 
 ## 📂 Folder Overview
 
 | Folder | Description |
 |--------|-------------|
-| [`/sql`](sql/) | Contains basic and advanced SQL queries with structured explanations |
-| [`/docs`](docs/) | ERD, methodology, and general documentation |
-| [`/visuals`](visuals/) | Power BI dashboard screenshots |
+| [`/sql`](sql/) | Contains basic and advanced SQL queries with detailed comments |
+| [`/docs`](docs/) | ERD diagrams, methodology documents, and general project documentation |
+| [`/visuals`](visuals/) | High-quality Power BI dashboard screenshots |
+
+---
 
 ## ⚠️ Disclaimer
 
-- This portfolio was created **independently** for educational purposes.
-- All data is **fictional** and does not reflect any real individuals or organizations.
-- The structure mimics common child protection and humanitarian data formats but is **not affiliated** with any agency.
-- Use of terminology such as “cases,” “referrals,” or “partners” is for demonstration only.
+- This portfolio was created **independently** for educational purposes.  
+- All data is **fictional** and does not reflect any real individuals or organizations.  
+- The data structure and indicators reflect common humanitarian reporting practices but are **not affiliated** with any agency.  
+- Use of terms like “cases,” “referrals,” or “partners” is for demonstration purposes only.
 
-🔗 [Visit the GitHub Repository](https://github.com/waleedconan/child-protection-sql-portfolio)
+---
+
+## 🔗 Repository
+
+GitHub: [https://github.com/waleedconan/child-protection-sql-portfolio](https://github.com/waleedconan/child-protection-sql-portfolio)
