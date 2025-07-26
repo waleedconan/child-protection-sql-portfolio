@@ -27,7 +27,7 @@ Despite the ongoing conflict and financial constraints in Sudan, child protectio
 
 ## 🗺️ Entity Relationship Diagram (ERD)
 
-📎 [View ERD as Markdown](docs/ERD.md)  
+📎 [View ERD as Markdown](https://github.com/waleedconan/child-protection-sql-portfolio/blob/main/docs/ERD.md)  
 ![ERD](https://raw.githubusercontent.com/waleedconan/child-protection-sql-portfolio/main/docs/child_protection_erd.png)
 
 ---
@@ -65,7 +65,7 @@ Despite the ongoing conflict and financial constraints in Sudan, child protectio
   - Rolling counts of referrals using `COUNT() OVER()`  
   - Aging referrals tracked with `DATEDIFF()` and conditional filters  
 
-📄 Detailed explanations and inline comments available in [`/sql/README_sql.md`](sql/README_sql.md)
+📄 Detailed explanations and inline comments available in [README_sql.md](https://github.com/waleedconan/child-protection-sql-portfolio/blob/main/sql/README_sql.md)
 
 ---
 
