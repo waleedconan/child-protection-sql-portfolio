@@ -111,7 +111,7 @@ Flags:
 | Observation                                 | Recommendation                                              |
 |---------------------------------------------|--------------------------------------------------------------|
 | 🔴 High pending referrals in Blue Nile      | Prioritize follow-up and support to partners in that state   |
-| 🟠 Partner C shows consistent underperformance | Provide capacity-building or reassign caseloads              |
+| 🟠 Partners shows consistent underperformance | Provide capacity-building or reassign caseloads              |
 | 🟡 12% of referrals pending >5 days         | Establish response time SLAs and trigger alerts              |
 | 🔵 Low service diversity in some states     | Broaden partner presence or provide cross-sector training    |
 
