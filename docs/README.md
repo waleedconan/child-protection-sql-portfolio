@@ -1,9 +1,10 @@
 # 🛡️ Child Protection – SQL & Power BI Portfolio Project
+
 ## 📚 Table of Contents
 
 - [🎯 Project Objective](#-project-objective)
 - [📝 Executive Summary](#-executive-summary)
-- [🛠️ Methodology](#-methodology)
+- [Methodology](#methodology)
 - [🗺️ Entity Relationship Diagram (ERD)](#-entity-relationship-diagram-erd)
 - [📊 Dashboard Interpretation](#-dashboard-interpretation)
   - [🔹 Program Coverage Summary](#-program-coverage-summary)
@@ -15,6 +16,8 @@
 - [🚀 How to Use](#-how-to-use)
 - [⚠️ Disclaimer](#-disclaimer)
 - [🔗 Repository](#-repository)
+
+---
 
 ## 🎯 Project Objective
 
@@ -107,50 +110,4 @@ Flags:
 
 | Observation                                 | Recommendation                                              |
 |---------------------------------------------|--------------------------------------------------------------|
-| 🔴 High pending referrals in Blue Nile      | Prioritize follow-up and support to partners in that state   |
-| 🟠 Partner C shows consistent underperformance | Provide capacity-building or reassign caseloads              |
-| 🟡 12% of referrals pending >5 days         | Establish response time SLAs and trigger alerts              |
-| 🔵 Low service diversity in some states     | Broaden partner presence or provide cross-sector training    |
-
----
-
-## 📂 Folder Overview
-
-| Folder       | Description                                                        |
-|--------------|--------------------------------------------------------------------|
-| `/sql`       | Basic and advanced SQL queries with detailed inline documentation  |
-| `/docs`      | ERD diagrams, methodology write-ups, and reference documentation    |
-| `/visuals`   | Screenshots from Power BI dashboards for report visuals             |
-
----
-
-## 🚀 How to Use
-
-1. **Explore SQL Queries**  
-   Go to the [sql folder](https://github.com/waleedconan/child-protection-sql-portfolio/tree/main/sql) to review and test the scripts.  
-   Inline comments guide logic and calculations.
-
-2. **View Dashboards**  
-   Use the `.pbix` file (if provided) or browse screenshots in the [visuals folder](https://github.com/waleedconan/child-protection-sql-portfolio/tree/main/visuals).
-
-3. **Understand Data Relationships**  
-   See the ERD in the [docs folder](https://github.com/waleedconan/child-protection-sql-portfolio/tree/main/docs) to understand database design.
-
-4. **Reproduce in Power BI**  
-   Load the simulated dataset, apply Power Query transformations, and implement DAX measures for KPIs.
-
----
-
-## ⚠️ Disclaimer
-
-- This project was developed **independently** for educational and portfolio purposes.  
-- All data is **fictional** and does **not represent** real individuals, organizations, or operations.  
-- No internal reports or confidential formats were used.  
-- The project is **not affiliated** with UNHCR or any partner agency.  
-- Terminology (e.g., “cases,” “referrals”) reflects general humanitarian practices only.
-
----
-
-## 🔗 Repository
-
-[https://github.com/waleedconan/child-protection-sql-portfolio](https://github.com/waleedconan/child-protection-sql-portfolio)
+| 🔴 High pending referrals
