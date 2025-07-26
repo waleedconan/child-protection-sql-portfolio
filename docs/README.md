@@ -90,10 +90,26 @@ Despite the ongoing conflict and financial constraints in Sudan, child protectio
 
 ---
 
+## 🚀 How to Use
+
+1. **Explore SQL Queries:**  
+   Navigate to the `/sql` folder to review and run the SQL scripts against your database or simulated datasets. Inline comments explain complex logic.
+
+2. **View Dashboards:**  
+   Use the Power BI desktop file (if provided) or review dashboard screenshots in `/visuals` to see key performance indicators and trends.
+
+3. **Understand Data Model:**  
+   Review the ERD in `/docs` to comprehend the database design and relationships.
+
+4. **Reproduce Analysis:**  
+   Prepare your data following simulated constraints, load into Power BI, apply Power Query transformations, and use the DAX measures provided for KPIs.
+
+---
+
 ## ⚠️ Disclaimer
 
 - This portfolio was created **independently** for educational purposes.  
-- All data is **fictional** and does not reflect any real individuals or organizations.  
+- All data is **fictional** and does not reflect any real individuals, organizations, or operational information.  
 - The data structure and indicators reflect common humanitarian reporting practices but are **not affiliated** with any agency.  
 - Use of terms like “cases,” “referrals,” or “partners” is for demonstration purposes only.
 
