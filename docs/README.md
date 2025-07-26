@@ -111,14 +111,14 @@ Flags:
 ## 🚀 How to Use
 
 1. **Explore SQL Queries**  
-   Go to the `/sql` folder to review and test the scripts.  
+   Go to the [sql folder](https://github.com/waleedconan/child-protection-sql-portfolio/tree/main/sql) to review and test the scripts.  
    Inline comments guide logic and calculations.
 
 2. **View Dashboards**  
-   Use the `.pbix` file (if provided) or browse screenshots in `/visuals`.
+   Use the `.pbix` file (if provided) or browse screenshots in the [visuals folder](https://github.com/waleedconan/child-protection-sql-portfolio/tree/main/visuals).
 
 3. **Understand Data Relationships**  
-   See the ERD in `/docs` to understand database design.
+   See the ERD in the [docs folder](https://github.com/waleedconan/child-protection-sql-portfolio/tree/main/docs) to understand database design.
 
 4. **Reproduce in Power BI**  
    Load the simulated dataset, apply Power Query transformations, and implement DAX measures for KPIs.
