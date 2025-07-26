@@ -5,7 +5,7 @@
 - [🎯 Project Objective](#-project-objective)
 - [📝 Executive Summary](#-executive-summary)
 - [Methodology](#methodology)
-- [🗺️ Entity Relationship Diagram (ERD)](#-entity-relationship-diagram-erd)
+- [🗺️ Entity Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
 - [📊 Dashboard Interpretation](#-dashboard-interpretation)
   - [🔹 Program Coverage Summary](#-program-coverage-summary)
   - [🔹 Case Management Tracking](#-case-management-tracking)
