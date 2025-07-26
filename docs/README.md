@@ -1,32 +1,32 @@
-# 🛡️ Child Protection – SQL & Power BI Portfolio Project
+# Child Protection – SQL & Power BI Portfolio Project
 
 ## 📚 Table of Contents
 
-- [🎯 Project Objective](#-project-objective)
-- [📝 Executive Summary](#-executive-summary)
-- [Methodology](#methodology)
+- [🎯 Project Objective](#project-objective)
+- [📝 Executive Summary](#executive-summary)
+- [🛠️ Methodology](#methodology)
 - [🗺️ Entity Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
-- [📊 Dashboard Interpretation](#-dashboard-interpretation)
-  - [🔹 Program Coverage Summary](#-program-coverage-summary)
-  - [🔹 Case Management Tracking](#-case-management-tracking)
-  - [🔹 Key Performance Indicators](#-key-performance-indicators)
-- [🧮 SQL Analysis Overview](#-sql-analysis-overview)
-- [📌 Key Findings & Recommendations](#-key-findings--recommendations)
-- [📂 Folder Overview](#-folder-overview)
-- [🚀 How to Use](#-how-to-use)
-- [⚠️ Disclaimer](#-disclaimer)
-- [🔗 Repository](#-repository)
+- [📊 Dashboard Interpretation](#dashboard-interpretation)
+  - [🔹 Program Coverage Summary](#program-coverage-summary)
+  - [🔹 Case Management Tracking](#case-management-tracking)
+  - [🔹 Key Performance Indicators](#key-performance-indicators)
+- [🧮 SQL Analysis Overview](#sql-analysis-overview)
+- [📌 Key Findings & Recommendations](#key-findings--recommendations)
+- [📂 Folder Overview](#folder-overview)
+- [🚀 How to Use](#how-to-use)
+- [⚠️ Disclaimer](#disclaimer)
+- [🔗 Repository](#repository)
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 To provide a donor-focused report showcasing the **coverage**, **trends**, and **gaps** in child protection services.  
 Despite the conflict in Sudan, protection activities continued in accessible states, reflecting a real-world humanitarian data context.
 
 ---
 
-## 📝 Executive Summary
+## Executive Summary
 
 This project simulates a real-world donor report to demonstrate how **SQL** and **Power BI** can be used to track child protection services, referrals, and partner performance in a humanitarian setting.
 
@@ -55,16 +55,16 @@ Developed in response to operational challenges in Sudan, the project models mon
 
 ---
 
-## 🗺️ Entity Relationship Diagram (ERD)
+## Entity Relationship Diagram (ERD)
 
 📎 [View ERD as Markdown](https://github.com/waleedconan/child-protection-sql-portfolio/blob/main/docs/ERD.md)  
 ![ERD](https://raw.githubusercontent.com/waleedconan/child-protection-sql-portfolio/main/docs/child_protection_erd.png)
 
 ---
 
-## 📊 Dashboard Interpretation
+## Dashboard Interpretation
 
-### 🔹 Program Coverage Summary  
+### Program Coverage Summary  
 🧭 Shows variation in service delivery across partners and states.  
 Highlights gaps in **Red Sea** and **Blue Nile**, with **Partner C** underperforming.
 
@@ -72,7 +72,7 @@ Highlights gaps in **Red Sea** and **Blue Nile**, with **Partner C** underperfor
 
 ---
 
-### 🔹 Case Management Tracking  
+### Case Management Tracking  
 📌 Tracks referrals by status, specific needs cases, and partner response breakdowns.  
 **Blue Nile** shows high pending referrals and low diversity in service types.
 
@@ -80,7 +80,7 @@ Highlights gaps in **Red Sea** and **Blue Nile**, with **Partner C** underperfor
 
 ---
 
-### 🔹 Key Performance Indicators  
+### Key Performance Indicators  
 📈 Summarizes delivery performance.  
 Flags:  
 - **23%** of referrals are pending  
@@ -90,7 +90,7 @@ Flags:
 
 ---
 
-## 🧮 SQL Analysis Overview
+## SQL Analysis Overview
 
 - **Basic Queries (`01_basic_queries.sql`):**
   - Referral counts by status and partner  
@@ -106,7 +106,7 @@ Flags:
 
 ---
 
-## 📌 Key Findings & Recommendations
+## Key Findings & Recommendations
 
 | Observation                                 | Recommendation                                              |
 |---------------------------------------------|--------------------------------------------------------------|
@@ -117,7 +117,7 @@ Flags:
 
 ---
 
-## 📂 Folder Overview
+## Folder Overview
 
 | Folder       | Description                                                        |
 |--------------|--------------------------------------------------------------------|
@@ -127,7 +127,7 @@ Flags:
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. **Explore SQL Queries**  
    Go to the [sql folder](https://github.com/waleedconan/child-protection-sql-portfolio/tree/main/sql) to review and test the scripts.  
@@ -144,7 +144,7 @@ Flags:
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 - This project was developed **independently** for educational and portfolio purposes.  
 - All data is **fictional** and does **not represent** real individuals, organizations, or operations.  
@@ -154,6 +154,6 @@ Flags:
 
 ---
 
-## 🔗 Repository
+## Repository
 
 [https://github.com/waleedconan/child-protection-sql-portfolio](https://github.com/waleedconan/child-protection-sql-portfolio)
