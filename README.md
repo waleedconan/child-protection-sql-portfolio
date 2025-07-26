@@ -78,7 +78,6 @@ CALCULATE(
 ![KPIs](https://github.com/waleedconan/child-protection-sql-portfolio/blob/main/v3%20KPIs.png)
 
 ## ⚙️ Data Entry Rules (Simulated Constraints)
-- **States:** Khartoum, Blue Nile, Red Sea  
 - **Beneficiaries:** Refugees, IDPs, Host Community  
 - **Date Format:** `YYYY-MM-DD`  
 - **Referral Status:** 'Pending', 'Completed', 'In Progress', 'Cancelled'  
