@@ -25,13 +25,13 @@ While initial examples focused on **Khartoum**, **Blue Nile**, and **Red Sea**, 
 ## 📊 Dashboard Previews
 
 ### 🔷 Page 1 – Program Coverage Summary  
-[![Page 1](visuals/v1%20Child%20Protection%20Donor%20Report%201.png)](visuals/v1%20Child%20Protection%20Donor%20Report%201.png)
+![Page 1](https://github.com/waleedconan/child-protection-sql-portfolio/blob/main/visuals/v1%20Child%20Protection%20Donor%20Report%201.png?raw=true)
 
 ### 🔷 Page 2 – Case Management Tracking  
-[![Page 2](visuals/v2%20Case%20Management%20Tracking.png)](visuals/v2%20Case%20Management%20Tracking.png)
+![Page 2](https://github.com/waleedconan/child-protection-sql-portfolio/blob/main/visuals/v2%20Case%20Management%20Tracking.png?raw=true)
 
 ### 🔷 Page 3 – Key KPIs  
-[![Page 3](visuals/v3%20KPIs.png)](visuals/v3%20KPIs.png)
+![Page 3](https://github.com/waleedconan/child-protection-sql-portfolio/blob/main/visuals/v3%20KPIs.png?raw=true)
 
 ---
 
