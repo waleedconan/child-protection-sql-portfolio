@@ -2,26 +2,37 @@
 
 ## 🎯 Project Objective
 
-To provide a donor-focused report showcasing the coverage, trends, and gaps in child protection services. Despite the conflict in Sudan, protection activities continued in accessible states, reflecting a real-world humanitarian data context.
+To provide a donor-focused report showcasing the **coverage**, **trends**, and **gaps** in child protection services.  
+Despite the conflict in Sudan, protection activities continued in accessible states, reflecting a real-world humanitarian data context.
 
 ---
 
-## 📝 Summary
+## 📝 Executive Summary
 
-Despite the ongoing conflict and financial constraints in Sudan, child protection activities were maintained in accessible areas. This simulated report demonstrates how SQL and Power BI can be used to track referrals, services, and partner performance in humanitarian contexts. The project mimics monthly reporting workflows and offers clear insights for donors and coordination actors. Visuals reflect simulated coverage across multiple states, service types, and vulnerable groups.
+This project simulates a real-world donor report to demonstrate how **SQL** and **Power BI** can be used to track child protection services, referrals, and partner performance in a humanitarian setting.
+
+Developed in response to operational challenges in Sudan, the project models monthly reporting workflows and visualizes service coverage across states, sectors, and vulnerable groups. I led the full data pipeline—from relational database modeling and SQL querying to Power BI dashboard design—showing how data can inform decision-making for donors and coordination actors even in crisis contexts.
 
 ---
 
 ## 🛠️ Methodology
 
-- **Data Simulation:** All data is fictional and generated to mimic real-world protection case management scenarios.
-- **Data Sources:** Monthly partner submissions using simulated ActivityInfo-based indicators.
-- **Tools:**
-  - **SQL** – For querying protection case data, referrals, and service trends.
-  - **Power BI** – For dashboard creation and visual storytelling.
+- **Data Simulation:**  
+  Fictional data generated to reflect real-world protection case management scenarios.
+
+- **Data Sources:**  
+  Simulated partner submissions, based on ActivityInfo-style indicators.
+
+- **Tools Used:**
+  - **SQL** – For querying protection case data, referrals, and service trends.  
+  - **Power BI** – For dashboard creation and visual storytelling.  
   - **Excel** – For data preparation and structure simulation.
-- **Data Cleaning and Shaping:** Power Query used within Power BI to clean and prepare data.
-- **Calculation Logic:** DAX measures implemented for dynamic KPIs such as referral aging and overdue case counts.
+
+- **Data Cleaning & Shaping:**  
+  Power Query was used within Power BI to clean and transform the dataset.
+
+- **Calculation Logic:**  
+  DAX measures were created for dynamic KPIs like referral aging and overdue case tracking.
 
 ---
 
@@ -35,86 +46,95 @@ Despite the ongoing conflict and financial constraints in Sudan, child protectio
 ## 📊 Dashboard Interpretation
 
 ### 🔹 Program Coverage Summary  
-🧭 Shows variation in service delivery across partners and states. Highlights gaps in Red Sea and Blue Nile, with Partner C underperforming.  
+🧭 Shows variation in service delivery across partners and states.  
+Highlights gaps in **Red Sea** and **Blue Nile**, with **Partner C** underperforming.
+
 ![Program Coverage](https://raw.githubusercontent.com/waleedconan/child-protection-sql-portfolio/main/visuals/v1%20Child%20Protection%20Donor%20Report%201.png)
 
 ---
 
 ### 🔹 Case Management Tracking  
-📌 Tracks referrals by status, specific needs cases, and partner action breakdowns. Blue Nile shows high pending referrals and low service type diversity.  
+📌 Tracks referrals by status, specific needs cases, and partner response breakdowns.  
+**Blue Nile** shows high pending referrals and low diversity in service types.
+
 ![Case Management Tracking](https://raw.githubusercontent.com/waleedconan/child-protection-sql-portfolio/main/visuals/v2%20Case%20Management%20Tracking.png)
 
 ---
 
 ### 🔹 Key Performance Indicators  
-📈 Summarizes delivery metrics. Flags 23% of referrals pending and 12% pending over 5 days — indicating action gaps.  
+📈 Summarizes delivery performance.  
+Flags:  
+- **23%** of referrals are pending  
+- **12%** pending for over 5 days — indicating delayed partner action
+
 ![KPIs](https://raw.githubusercontent.com/waleedconan/child-protection-sql-portfolio/main/visuals/v3%20KPIs.png)
 
 ---
 
 ## 🧮 SQL Analysis Overview
 
-- **Basic Queries (`01_basic_queries.sql`):**  
+- **Basic Queries (`01_basic_queries.sql`):**
   - Referral counts by status and partner  
   - Service distribution by location  
-  - Partner-wise beneficiary reach  
+  - Partner-wise beneficiary reach
 
-- **Advanced Queries (`02_advanced_queries.sql`):**  
-  - Use of window functions like `DENSE_RANK()`, `LAG()` for partner ranking and performance changes  
-  - `NTILE()` for segmenting partners by performance tiers  
-  - Rolling counts of referrals using `COUNT() OVER()`  
-  - Aging referrals tracked with `DATEDIFF()` and conditional filters  
+- **Advanced Queries (`02_advanced_queries.sql`):**
+  - Window functions: `DENSE_RANK()`, `LAG()`, `NTILE()`  
+  - Rolling referral counts: `COUNT() OVER()`  
+  - Referral aging using `DATEDIFF()` and conditions
 
-📄 Detailed explanations and inline comments available in [README_sql.md](https://github.com/waleedconan/child-protection-sql-portfolio/blob/main/sql/README_sql.md)
+📄 See full explanations in [README_sql.md](https://github.com/waleedconan/child-protection-sql-portfolio/blob/main/sql/README_sql.md)
 
 ---
 
 ## 📌 Key Findings & Recommendations
 
-| Observation | Recommendation |
-|-------------|----------------|
-| 🔴 High pending referrals in Blue Nile | Prioritize support and follow-up with partners in that state |
-| 🟠 Partner C shows consistent underperformance | Targeted capacity building or reallocation of cases |
-| 🟡 12% of referrals are pending >5 days | Introduce response time SLAs and automated alert systems |
-| 🔵 Some states have low service diversity (e.g., Red Sea) | Broaden partner presence or cross-train existing partners |
+| Observation                                 | Recommendation                                              |
+|---------------------------------------------|--------------------------------------------------------------|
+| 🔴 High pending referrals in Blue Nile      | Prioritize follow-up and support to partners in that state   |
+| 🟠 Partner C shows consistent underperformance | Provide capacity-building or reassign caseloads              |
+| 🟡 12% of referrals pending >5 days         | Establish response time SLAs and trigger alerts              |
+| 🔵 Low service diversity in some states     | Broaden partner presence or provide cross-sector training    |
 
 ---
 
 ## 📂 Folder Overview
 
-| Folder | Description |
-|--------|-------------|
-| [`/sql`](sql/) | Contains basic and advanced SQL queries with detailed comments |
-| [`/docs`](docs/) | ERD diagrams, methodology documents, and general project documentation |
-| [`/visuals`](visuals/) | High-quality Power BI dashboard screenshots |
+| Folder       | Description                                                        |
+|--------------|--------------------------------------------------------------------|
+| `/sql`       | Basic and advanced SQL queries with detailed inline documentation  |
+| `/docs`      | ERD diagrams, methodology write-ups, and reference documentation    |
+| `/visuals`   | Screenshots from Power BI dashboards for report visuals             |
 
 ---
 
 ## 🚀 How to Use
 
-1. **Explore SQL Queries:**  
-   Navigate to the `/sql` folder to review and run the SQL scripts against your database or simulated datasets. Inline comments explain complex logic.
+1. **Explore SQL Queries**  
+   Go to the `/sql` folder to review and test the scripts.  
+   Inline comments guide logic and calculations.
 
-2. **View Dashboards:**  
-   Use the Power BI desktop file (if provided) or review dashboard screenshots in `/visuals` to see key performance indicators and trends.
+2. **View Dashboards**  
+   Use the `.pbix` file (if provided) or browse screenshots in `/visuals`.
 
-3. **Understand Data Model:**  
-   Review the ERD in `/docs` to comprehend the database design and relationships.
+3. **Understand Data Relationships**  
+   See the ERD in `/docs` to understand database design.
 
-4. **Reproduce Analysis:**  
-   Prepare your data following simulated constraints, load into Power BI, apply Power Query transformations, and use the DAX measures provided for KPIs.
+4. **Reproduce in Power BI**  
+   Load the simulated dataset, apply Power Query transformations, and implement DAX measures for KPIs.
 
 ---
 
 ## ⚠️ Disclaimer
 
-- This portfolio was created **independently** for educational purposes.  
-- All data is **fictional** and does not reflect any real individuals, organizations, or operational information.  
-- The data structure and indicators reflect common humanitarian reporting practices but are **not affiliated** with any agency.  
-- Use of terms like “cases,” “referrals,” or “partners” is for demonstration purposes only.
+- This project was developed **independently** for educational and portfolio purposes.  
+- All data is **fictional** and does **not represent** real individuals, organizations, or operations.  
+- No internal reports or confidential formats were used.  
+- The project is **not affiliated** with UNHCR or any partner agency.  
+- Terminology (e.g., “cases,” “referrals”) reflects general humanitarian practices only.
 
 ---
 
 ## 🔗 Repository
 
-GitHub: [https://github.com/waleedconan/child-protection-sql-portfolio](https://github.com/waleedconan/child-protection-sql-portfolio)
+[https://github.com/waleedconan/child-protection-sql-portfolio](https://github.com/waleedconan/child-protection-sql-portfolio)
