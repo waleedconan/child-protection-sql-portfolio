@@ -66,7 +66,7 @@ Developed in response to operational challenges in Sudan, the project models mon
 
 ### Program Coverage Summary  
 🧭 Shows variation in service delivery across partners and states.  
-Highlights gaps in **Red Sea** and **Blue Nile**, with **Partner C** underperforming.
+Highlights gaps in **Red Sea** and **Blue Nile**, with **Partners** underperforming.
 
 ![Program Coverage](https://raw.githubusercontent.com/waleedconan/child-protection-sql-portfolio/main/visuals/v1%20Child%20Protection%20Donor%20Report%201.png)
 
