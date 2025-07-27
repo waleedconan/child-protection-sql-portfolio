@@ -73,8 +73,9 @@ The breakdown by sex and case status highlights a concerning number of open case
 ---
 
 ### Case Management Tracking  
-📌 Tracks referrals by status, specific needs cases, and partner response breakdowns.  
-**Blue Nile** shows high pending referrals and low diversity in service types.
+📌 This section shows the status of cases managed by each partner, with most cases marked as in progress or pending.
+The table highlights partner presence by state, helping to identify geographic gaps in service delivery.
+The final chart outlines specific needs, with a large number of children identified as street children, making it the most frequently reported vulnerability.
 
 ![Case Management Tracking](https://raw.githubusercontent.com/waleedconan/child-protection-sql-portfolio/main/visuals/v2%20Case%20Management%20Tracking.png)
 
