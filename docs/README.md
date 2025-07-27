@@ -86,8 +86,16 @@ The final chart outlines specific needs, with a large number of children identif
 ### Key Performance Indicators  
 📈 Summarizes delivery performance.  
 Flags:  
-- **23%** of referrals are pending  
-- **12%** pending for over 5 days — indicating delayed partner action
+This section highlights key service delivery metrics. The dashboard shows:
+
+5 pending referrals,
+
+3 overdue cases (pending for more than 5 days),
+
+12.5% of planned services delivered for IDPs in Blue Nile.
+
+
+These indicators point to delays in referral follow-up and low service coverage in a high-priority area.
 
 ![KPIs](https://raw.githubusercontent.com/waleedconan/child-protection-sql-portfolio/main/visuals/v3%20KPIs.png)
 
