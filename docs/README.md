@@ -45,10 +45,9 @@ Developed in response to operational challenges in Sudan, the project models mon
 - **Tools Used:**
   - **SQL** – For querying protection case data, referrals, and service trends.  
   - **Power BI** – For dashboard creation and visual storytelling.  
-  - **Excel** – For data preparation and structure simulation.
 
 - **Data Cleaning & Shaping:**  
-  Power Query was used within Power BI to clean and transform the dataset.
+  Power Query was used within Power BI to data clean and transform the dataset.
 
 - **Calculation Logic:**  
   DAX measures were created for dynamic KPIs like referral aging and overdue case tracking.
