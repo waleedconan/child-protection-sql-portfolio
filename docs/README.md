@@ -1,4 +1,4 @@
-# Child Protection – SQL & Power BI Portfolio P# Child Protection – SQL & Power BI Portfolio Project
+# Child Protection – SQL & Power BI Portfolio Project
 
 ## 📚 Table of Contents
 
