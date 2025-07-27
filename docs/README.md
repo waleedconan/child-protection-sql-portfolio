@@ -145,7 +145,7 @@ These indicators point to delays in referral follow-up and low service coverage 
    Inline comments guide logic and calculations.
 
 2. **View Dashboards**  
-   Use the `.pbix` file (if provided) or browse screenshots in the [visuals folder](https://github.com/waleedconan/child-protection-sql-portfolio/tree/main/visuals).
+   Use the `.pbix` file or browse screenshots in the [visuals folder](https://github.com/waleedconan/child-protection-sql-portfolio/tree/main/visuals).
 
 3. **Understand Data Relationships**  
    See the ERD in the [docs folder](https://github.com/waleedconan/child-protection-sql-portfolio/tree/main/docs) to understand database design.
