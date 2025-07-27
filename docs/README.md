@@ -65,7 +65,9 @@ Developed in response to operational challenges in Sudan, the project models mon
 ## Dashboard Interpretation
 
 ### Program Coverage Summary  
-🧭 This view gives a high-level overview of how child protection cases are progressing. Most cases are currently in the assessment phase, with fewer reaching follow-up or closure.
+🧭 This view gives a high-level overview of how child protection cases are progressing. 
+Most cases are currently in the assessment phase, with fewer reaching follow-up or closure.
+
 The breakdown by sex and case status highlights a concerning number of open cases among boys, suggesting possible delays in follow-up or case resolution.
 
 ![Program Coverage](https://raw.githubusercontent.com/waleedconan/child-protection-sql-portfolio/main/visuals/v1%20Child%20Protection%20Donor%20Report%201.png)
