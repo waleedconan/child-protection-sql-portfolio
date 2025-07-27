@@ -21,16 +21,16 @@
 
 ## Project Objective
 
-To provide a donor-focused report showcasing the **coverage**, **trends**, and **gaps** in child protection services.  
-Despite the conflict in Sudan, protection activities continued in accessible states, reflecting a real-world humanitarian data context.
+To provide a donor-focused report showcasing the coverage, trends, and gaps in child protection services, while highlighting that protection activities continued in accessible states despite the conflict in Sudan, thereby reflecting a real-world humanitarian data context.
 
 ---
 
 ## Executive Summary
 
-This project simulates a real-world donor report to demonstrate how **SQL** and **Power BI** can be used to track child protection services, referrals, and partner performance in a humanitarian setting.
+This project simulates a real-world donor report to demonstrate how SQL and Power BI can be applied to monitor child protection services, referrals, and partner performance in humanitarian contexts.
+In the context of Sudan’s operational challenges, the project models monthly reporting workflows and visualizes service coverage across states, sectors, and vulnerable groups—reflecting the complexities of crisis settings.
 
-Developed in response to operational challenges in Sudan, the project models monthly reporting workflows and visualizes service coverage across states, sectors, and vulnerable groups. I led the full data pipeline—from relational database modeling and SQL querying to Power BI dashboard design—showing how data can inform decision-making for donors and coordination actors even in crisis contexts.
+I managed the entire data pipeline, from relational database design and SQL analysis to Power BI dashboard creation, to show how data can support evidence-based decision-making for donors and coordination actors.
 
 ---
 
